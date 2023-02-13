@@ -1,29 +1,29 @@
  /* Anjas Array Starts Here*/
 const randomMessageAnja = [
-    "XX",
-    "YY",
-    "FF",
-    "GG",
-    "HH",
-    "TT",
-    "UU",
-    "RR",
-    "MM",
-    "QQ",
+    "sunny, sunny, sunny!!!",
+    "cloudy with the sun peeking through.",
+    "fine.",
+    "surprising us with snow and ice.",
+    "hopefully getting better soon!",
+    "nice and warm. A perfect summer day.",
+    "partly sunny, cloudy, with an occasional thunderstorm.",
+    "not nice :-/",
+    "rainy all day long.",
+    "like a typical winter day.",
   ];
 
    /* Emrahs Array Starts Here*/
   const randomMessageEmrah = [
-    "1111111",
-    "2222222",
-    "3333333",
-    "44444444",
-    "55555555",
-    "6666666",
-    "77777777",
-    "88888888",
-    "999999999",
-    "1010101010"
+    "Sunny days, funky ways",
+    "Rain, pain, brain drain",
+    "Windy tales, failed sails",
+    "Snowflakes, snow brakes",
+    "Stormy mood, foodie dude",
+    "Foggy brain, insane train",
+    "Hazy craze, lazy daze",
+    "Thunder clap, nap trap",
+    "Cloudy gloom, room boom",
+    "Heatwave dreams, ice cream screams"
   ];
 
   /* Alexandras Array Starts Here*/
@@ -38,31 +38,24 @@ const randomMessageAnja = [
     "Get your ass up and go to work.",
   ];
 
-
-
-
 /* Message generator */
-function generateMessage() {
-    const randomAnja =
-      randomMessageAnja[Math.floor(Math.random() * randomMessageAnja.length)];
-    const randomEmrah =
-      randomMessageEmrah[Math.floor(Math.random() * randomMessageEmrah.length)];
-    const randomAlexandra =
-      randomMessageAlexandra[
-        Math.floor(Math.random() * randomMessageAlexandra.length)
-      ];
-  
-    const output1 = `<h1><i>The weather is</i> ${randomAnja}</h1>`;
-    const output2 = `<h2><i>Some text here</i> ${randomEmrah}</h2>`;
-    const output3 = `<h3><i>More text here</i> ${randomAlexandra}</h3>`;
-  
-    document.getElementById("output1").innerHTML = output;
-    document.getElementById("output2").innerHTML = output;
-    document.getElementById("output3").innerHTML = output;
+  function generateMessage() {
+    
+    const randomAnja = randomMessageAnja[Math.floor(Math.random() * randomMessageAnja.length)];
+    const randomEmrah = randomMessageEmrah[Math.floor(Math.random() * randomMessageEmrah.length)];
+    const randomAlexandra = randomMessageAlexandra[Math.floor(Math.random() * randomMessageAlexandra.length)];
+    
+   /*  <i> be </i>${randomEmrah} ${randomAlexandra}</h1> */
+    const outputAnja = `<p><i>If the weather</i> ${randomAnja}`;
+    document.getElementById("outputAnja").innerHTML = outputAnja;
+
+    const outputEmrah = `<p><i> it's gonna be like; </i>${randomEmrah}`;
+    document.getElementById("outputEmrah").innerHTML = outputEmrah;
+
+    const outputAlexandra = `<p><i></i>${randomAlexandra}`;
+    document.getElementById("outputAlexandra").innerHTML = outputAlexandra;
+
   }
-  document
-    .getElementById("generateBtn")
-    .addEventListener("click", generateMessage);
+  document.getElementById("generateBtn").addEventListener("click", generateMessage);
 
 
-  
