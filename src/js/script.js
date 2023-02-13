@@ -45,8 +45,7 @@ const randomMessageAnja = [
     const randomEmrah = randomMessageEmrah[Math.floor(Math.random() * randomMessageEmrah.length)];
     const randomAlexandra = randomMessageAlexandra[Math.floor(Math.random() * randomMessageAlexandra.length)];
     
-   /*  <i> be </i>${randomEmrah} ${randomAlexandra}</h1> */
-    const outputAnja = `<p><i>If the weather</i> ${randomAnja}`;
+    const outputAnja = `<p><i>The weather is</i> ${randomAnja}`;
     document.getElementById("outputAnja").innerHTML = outputAnja;
 
     const outputEmrah = `<p><i> it's gonna be like; </i>${randomEmrah}`;
