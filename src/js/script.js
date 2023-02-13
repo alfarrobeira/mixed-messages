@@ -52,7 +52,7 @@ const randomMessageAnja = [
     const outputAnja = `<p><i>If the weather</i> ${randomAnja}`;
     document.getElementById("outputAnja").innerHTML = outputAnja;
 
-    const outputEmrah = `<p><i> be</i>${randomEmrah}`;
+    const outputEmrah = `<p><i> it's gonna be like; </i>${randomEmrah}`;
     document.getElementById("outputEmrah").innerHTML = outputEmrah;
 
     const outputAlexandra = `<p><i></i>${randomAlexandra}`;
