@@ -1,15 +1,15 @@
 /* Anjas Array Starts Here*/
 const randomMessageAnja = [
-    "XX",
-    "YY",
-    "FF",
-    "GG",
-    "HH",
-    "TT",
-    "UU",
-    "RR",
-    "MM",
-    "QQ",
+    "sunny, sunny, sunny!!!",
+    "cloudy with the sun peeking through.",
+    "fine.",
+    "surprising us with snow and ice.",
+    "hopefully getting better soon!",
+    "nice and warm. A perfect summer day.",
+    "partly sunny, cloudy, with an occasional thunderstorm.",
+    "not nice :-/",
+    "rainy all day long.",
+    "like a typical winter day.",
   ];
 
    /* Emrahs Array Starts Here*/
