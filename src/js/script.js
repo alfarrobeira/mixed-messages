@@ -1,15 +1,15 @@
 /* Anjas Array Starts Here*/
 const randomMessageAnja = [
-  "XX",
-  "YY",
-  "FF",
-  "GG",
-  "HH",
-  "TT",
-  "UU",
-  "RR",
-  "MM",
-  "QQ",
+  "sunny, sunny, sunny!!!",
+  "cloudy with the sun peeking through.",
+  "fine.",
+  "surprising us with snow and ice.",
+  "hopefully getting better soon!",
+  "nice and warm. A perfect summer day.",
+  "partly sunny, cloudy, with an occasional thunderstorm.",
+  "not nice :-/",
+  "rainy all day long.",
+  "like a typical winter day.",
 ];
 
 /* Emrahs Array Starts Here*/
@@ -40,14 +40,9 @@ const randomMessageAlexandra = [
 
 /* Message generator */
 function generateMessage() {
-  const randomAnja =
-    randomMessageAnja[Math.floor(Math.random() * randomMessageAnja.length)];
-  const randomEmrah =
-    randomMessageEmrah[Math.floor(Math.random() * randomMessageEmrah.length)];
-  const randomAlexandra =
-    randomMessageAlexandra[
-      Math.floor(Math.random() * randomMessageAlexandra.length)
-    ];
+  const randomAnja = randomMessageAnja[Math.floor(Math.random() * randomMessageAnja.length)];
+  const randomEmrah = randomMessageEmrah[Math.floor(Math.random() * randomMessageEmrah.length)];
+  const randomAlexandra = randomMessageAlexandra[Math.floor(Math.random() * randomMessageAlexandra.length)];
 
   const output1 = `<h1><i>The weather is</i> ${randomAnja}</h1>`;
   const output2 = `<h1><i>Some text here</i> ${randomEmrah}</h1>`;
@@ -57,6 +52,5 @@ function generateMessage() {
   document.getElementById("output2").innerHTML = output;
   document.getElementById("output3").innerHTML = output;
 }
-document
-  .getElementById("generateBtn")
-  .addEventListener("click", generateMessage);
+
+document.getElementById("generateBtn").addEventListener("click", generateMessage);
