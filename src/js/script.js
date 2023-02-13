@@ -49,13 +49,13 @@ const randomMessageAnja = [
     const randomAlexandra = randomMessageAlexandra[Math.floor(Math.random() * randomMessageAlexandra.length)];
     
    /*  <i> be </i>${randomEmrah} ${randomAlexandra}</h1> */
-    const outputAnja = `<h1><i>If the weather</i> ${randomAnja}`;
+    const outputAnja = `<p><i>If the weather</i> ${randomAnja}`;
     document.getElementById("outputAnja").innerHTML = outputAnja;
 
-    const outputEmrah = `<h1><i> be </i>${randomEmrah}`;
+    const outputEmrah = `<p><i> be</i>${randomEmrah}`;
     document.getElementById("outputEmrah").innerHTML = outputEmrah;
 
-    const outputAlexandra = `<h1><i></i>${randomAlexandra}`;
+    const outputAlexandra = `<p><i></i>${randomAlexandra}`;
     document.getElementById("outputAlexandra").innerHTML = outputAlexandra;
 
   }
