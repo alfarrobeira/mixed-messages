@@ -14,16 +14,16 @@ const randomMessageAnja = [
 
    /* Emrahs Array Starts Here*/
   const randomMessageEmrah = [
-    "1111111",
-    "2222222",
-    "3333333",
-    "44444444",
-    "55555555",
-    "6666666",
-    "77777777",
-    "88888888",
-    "999999999",
-    "1010101010"
+    "Sunny days, funky ways",
+    "Rain, pain, brain drain",
+    "Windy tales, failed sails",
+    "Snowflakes, snow brakes",
+    "Stormy mood, foodie dude",
+    "Foggy brain, insane train",
+    "Hazy craze, lazy daze",
+    "Thunder clap, nap trap",
+    "Cloudy gloom, room boom",
+    "Heatwave dreams, ice cream screams"
   ];
 
   /* Alexandras Array Starts Here*/
@@ -48,9 +48,16 @@ const randomMessageAnja = [
     const randomEmrah = randomMessageEmrah[Math.floor(Math.random() * randomMessageEmrah.length)];
     const randomAlexandra = randomMessageAlexandra[Math.floor(Math.random() * randomMessageAlexandra.length)];
     
-    
-    const output = `<h1><i>If the weather</i> ${randomAnja}<i> be </i>${randomEmrah} ${randomAlexandra}</h1>`;
-    document.getElementById("output").innerHTML = output;
+   /*  <i> be </i>${randomEmrah} ${randomAlexandra}</h1> */
+    const outputAnja = `<h1><i>If the weather</i> ${randomAnja}`;
+    document.getElementById("outputAnja").innerHTML = outputAnja;
+
+    const outputEmrah = `<h1><i> be </i>${randomEmrah}`;
+    document.getElementById("outputEmrah").innerHTML = outputEmrah;
+
+    const outputAlexandra = `<h1><i></i>${randomAlexandra}`;
+    document.getElementById("outputAlexandra").innerHTML = outputAlexandra;
+
   }
   document.getElementById("generateBtn").addEventListener("click", generateMessage);
 
