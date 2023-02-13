@@ -1,4 +1,4 @@
-/* Anjas Array Starts Here*/
+ /* Anjas Array Starts Here*/
 const randomMessageAnja = [
     "sunny, sunny, sunny!!!",
     "cloudy with the sun peeking through.",
@@ -28,18 +28,15 @@ const randomMessageAnja = [
 
   /* Alexandras Array Starts Here*/
   const randomMessageAlexandra = [
-    "- 1",
-    "- 2",
-    "- 3",
-    "- 4",
-    "- 5",
-    "- 6",
-    "- 7",
-    "- 8",
+    "Don't forget to feed the cats.",
+    "Buy bread.",
+    "Stop sitting on the toilet.",
+    "Comb your hair.",
+    "Buy a cat.",
+    "Open the folder.",
+    "Change language.",
+    "Get your ass up and go to work.",
   ];
-
-
-
 
 /* Message generator */
   function generateMessage() {
