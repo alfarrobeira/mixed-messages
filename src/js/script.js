@@ -1,4 +1,4 @@
- /* Anjas Array Starts Here*/
+/* Anjas Array Starts Here*/
 const randomMessageAnja = [
     "XX",
     "YY",
@@ -62,4 +62,3 @@ const randomMessageAnja = [
   document.getElementById("generateBtn").addEventListener("click", generateMessage);
 
 
-  
