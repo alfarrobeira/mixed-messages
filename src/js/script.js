@@ -48,9 +48,9 @@ function generateMessage() {
   const output2 = `<h1><i>Some text here</i> ${randomEmrah}</h1>`;
   const output3 = `<h1><i>More text here</i> ${randomAlexandra}</h1>`;
 
-  document.getElementById("output1").innerHTML = output;
-  document.getElementById("output2").innerHTML = output;
-  document.getElementById("output3").innerHTML = output;
+  document.getElementById("output1").innerHTML = output1;
+  document.getElementById("output2").innerHTML = output2;
+  document.getElementById("output3").innerHTML = output3;
 }
 
 document.getElementById("generateBtn").addEventListener("click", generateMessage);
